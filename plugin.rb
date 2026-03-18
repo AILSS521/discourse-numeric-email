@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 # name: discourse-numeric-email
-# about: Requires email local part (before @) to be numeric only (e.g. QQ number)
-# version: 1.3
+# about: 纯数字邮箱注册限制 - 仅允许纯数字QQ号注册，不支持英文别名邮箱
+# version: 1.4
 # authors: LingLong
 # url: https://github.com/AILSS521/discourse-numeric-email
 
