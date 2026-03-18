@@ -1,6 +1,10 @@
 zh_CN:
+  site_settings:
+    numeric_email_enabled: "启用纯数字邮箱注册限制（仅允许QQ号注册）"
   discourse_numeric_email:
     error: "必须使用纯数字QQ号注册，不支持英文别名邮箱"
 en:
+  site_settings:
+    numeric_email_enabled: "Enable numeric-only email registration (e.g. QQ number only)"
   discourse_numeric_email:
     error: "must be a numeric QQ email (e.g. 123456@qq.com), aliases are not allowed"
