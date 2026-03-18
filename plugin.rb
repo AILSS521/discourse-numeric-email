@@ -2,13 +2,11 @@
 
 # name: discourse-numeric-email
 # about: Requires email local part (before @) to be numeric only (e.g. QQ number)
-# version: 1.2
+# version: 1.3
 # authors: LingLong
 # url: https://github.com/AILSS521/discourse-numeric-email
 
 enabled_site_setting :numeric_email_enabled
-
-register_site_setting(:numeric_email_enabled, default: true, type: 'bool', client: false)
 
 after_initialize do
   module ::DiscourseNumericEmail
